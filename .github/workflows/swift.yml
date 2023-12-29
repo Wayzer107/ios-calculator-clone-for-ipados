@@ -22,6 +22,7 @@ jobs:
     - name: Run tests
       run: swift test -v
 on:
+  workflow_dispatch:
   push:
     branches:
     - main
